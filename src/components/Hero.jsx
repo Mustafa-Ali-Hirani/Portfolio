@@ -37,12 +37,15 @@ const Hero = () => {
             between complex AI models and scalable business solutions.
           </p>
 
-          {/* 4) Interactive CTA Button */}
+          {/* 4) Interactive CTA Link */}
           <div className="flex items-center justify-center mb-20">
-            <button className="group flex items-center gap-2 px-8 py-4 bg-brand-accent hover:bg-brand-accent/90 text-white font-bold rounded-xl transition-all shadow-lg shadow-brand-accent/25">
+            <a 
+              href="#projects"
+              className="group flex items-center gap-2 px-8 py-4 bg-brand-accent hover:bg-brand-accent/90 text-white font-bold rounded-xl transition-all shadow-lg shadow-brand-accent/25"
+            >
               Explore Selected Work
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
           </div>
 
           {/* 5) Operational Metrics Banner */}
