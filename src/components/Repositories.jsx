@@ -63,6 +63,15 @@ const repoData = [
     stars: 10,
     forks: 2,
     tech: "react"
+  },
+  {
+    title: "FreightDesk Pro Desktop",
+    tags: ["Python", "PyQt6 GUI", "SQLite DB", "ReportLab PDF"],
+    link: "https://github.com/Mustafa-Ali-Hirani",
+    language: "Python",
+    stars: 12,
+    forks: 2,
+    tech: "python"
   }
 ];
 

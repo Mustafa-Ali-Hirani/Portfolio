@@ -91,6 +91,28 @@ const projectsData = [
     ]
   },
   {
+    id: 10,
+    title: "FreightDesk Pro",
+    category: "Agentic AI & Automation",
+    impact: "Standalone PyQt6 desktop logistics engine automating local SQLite databases and ReportLab PDF billing logs.",
+    description: "An enterprise-grade, MVC-structured desktop logistics application built in Python. Integrates relational SQLAlchemy schemas, asynchronous QThread background workers for AI assistance, and stand-alone Windows compiling.",
+    tags: ["Python", "PyQt6", "SQLite", "SQLAlchemy", "AI Integration", "ReportLab"],
+    slides: [
+      {
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+        summary: "Interactive desktop dashboard showcasing dynamic SQLite database KPI counters and shipping transit revenue monitors."
+      },
+      {
+        image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+        summary: "Asynchronous PyQt6 QThread background workers offloading AI API queries to maintain 100% GUI system responsiveness."
+      },
+      {
+        image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
+        summary: "Automated ReportLab PDF invoicing engine compiling database records into dynamic, custom-branded customer billing receipts."
+      }
+    ]
+  },
+  {
     id: 5,
     title: "Atlas Logistics",
     category: "Logistics MERN Apps",
